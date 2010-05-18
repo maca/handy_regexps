@@ -4,12 +4,13 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "hady-regexps"
-    gem.summary = %Q{TODO: Useful regular expressions}
-    gem.description = %Q{TODO: Useful regular expressions}
-    gem.email = "macarui@gmail.com"
-    gem.homepage = "http://github.com/maca/hady-regexps"
-    gem.authors = ["Macario"]
+    gem.name        = "handy-regexps"
+    gem.version     = '0.1.1'
+    gem.summary     = %Q{Useful regular expressions, so far Url and Email}
+    gem.description = %Q{Useful regular expressions, so far Url and Email}
+    gem.email       = "macarui@gmail.com"
+    gem.homepage    = "http://github.com/maca/hady-regexps"
+    gem.authors     = ["Macario"]
     gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
