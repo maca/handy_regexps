@@ -5,7 +5,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name        = "handy-regexps"
-    gem.version     = '0.1.1'
+    gem.version     = '0.1.2'
     gem.summary     = %Q{Useful regular expressions, so far Url and Email}
     gem.description = %Q{Useful regular expressions, so far Url and Email}
     gem.email       = "macarui@gmail.com"
