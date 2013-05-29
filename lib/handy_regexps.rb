@@ -1,3 +1,5 @@
+# encoding: ascii
+
 module HandyRegexps
   DomainName = %r{
     \b
